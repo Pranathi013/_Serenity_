@@ -1,0 +1,5 @@
+{
+  "name": "Serenity",
+  "description": "A mental wellness web application featuring an AI-powered chatbot for mood tracking, journaling with sentiment analysis, and personalized content suggestions to support your emotional well-being.",
+  "requestFramePermissions": []
+}

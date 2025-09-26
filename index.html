@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serenity</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-lavender': '#A78BFA',
+              'brand-pink': '#F472B6',
+              'brand-sky-blue': '#CAF0F8',
+              'brand-charcoal': '#4B5563',
+              'brand-blue': {
+                light: '#E0F2FE',
+                DEFAULT: '#0EA5E9',
+                dark: '#0369A1',
+              },
+              'brand-teal': {
+                light: '#D1FAE5',
+                DEFAULT: '#10B981',
+                dark: '#047857',
+              },
+              'brand-gray': {
+                lightest: '#F9FAFB',
+                light: '#F3F4F6',
+                DEFAULT: '#6B7280',
+                dark: '#374151',
+                darkest: '#111827',
+              }
+            },
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.1",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.20.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+  }
+}
+</script>
+</head>
+  <body class="bg-brand-sky-blue">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
